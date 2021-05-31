@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 
 class GroupButtonBloc extends ChangeNotifier {
-  int _selectedIndex = 0;
+  int _selectedIndex;
 
   final Map<int, bool> _selectedIndexes = {};
 
